@@ -58,3 +58,27 @@ boxmot/motion/cmc/*.jpg
 
 # json outputs
 *_output.json
+
+
+
+
+# Ignore datasets
+datasets/
+data/
+
+# Ignore videos
+*.mp4
+*.avi
+*.mov
+
+# Ignore model weights
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs / temp
+*.log
+*.tmp
